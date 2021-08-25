@@ -1,0 +1,52 @@
+body{
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Inconsolata', monospace;
+  color: white;
+  background-color: green;
+}
+
+.layover{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 500px;
+  height: 120px;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#cerberus{
+  float: right;
+  height: 120px;
+}
+
+#loader{
+  width: 20px;
+  height: 20px;
+}
+
+.main-text{
+  margin-left: 5px;
+}
+
+#ng{
+}
+
+#dot{
+  color: red;
+  font-size: 20px;
+}
+
+#mottoLSPD{
+  font-family: 'Merienda', cursive;
+  margin-left: 200px;
+}
+
+#lspd{
+  font-family: 'Ultra', serif;
+}

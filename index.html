@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Merienda&family=Ultra&display=swap" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="layover">
+        <img src="https://cdn.discordapp.com/attachments/851172344776491039/879408362121465876/Immagine_2021-08-23_170650.png" id="cerberus">
+        <div class="main-text">
+          <span id="rec">REC</span>
+          <span id="dot">&#9679;</span>
+          <span>BODY CAM</span>
+          <br>
+          <span id="ng">H.Moose</span>
+          <br>
+          <span id="lspd">L.S.P.D</span>
+          <br>
+          <div class="date">
+            <script>
+              var today = new Date();
+              var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+              var dd = String(today.getDate()).padStart(2, '0');
+              var yyyy = today.getFullYear();
+
+              today = dd + '/' + mm + '/' + yyyy;
+              document.write(today);
+            </script>
+          </div>
+          <span id="mottoLSPD">Obey & Survive</span>
+          <br>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
